@@ -7,9 +7,7 @@
 > RxJava는 반응형 프로그래밍이다. 반응형이란 데이터가 변하면 알아서 캐치히야 결과로 반영.
 따라서 데이터를 관찰 할 수 있고, 데이터를 스트림으로 처리.
 
-<br><br>
 
--------
 <br><br>
 ## Rx = Observable + Observers + Schedulers
 
