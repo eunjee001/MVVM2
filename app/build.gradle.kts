@@ -55,6 +55,7 @@ dependencies {
     implementation("io.reactivex.rxjava2:rxandroid:2.0.2")
 
     implementation("io.insert-koin:koin-test:3.1.6")
+    implementation("io.insert-koin:koin-androidx-viewmodel:2.2.3")
     testImplementation ("io.insert-koin:koin-test:3.1.6")
 
     implementation("com.squareup.picasso:picasso:2.5.2")

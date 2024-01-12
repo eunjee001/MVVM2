@@ -1,8 +1,5 @@
 package com.kkyoungs.mvvm
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-import androidx.databinding.DataBindingUtil
 import com.kkyoungs.mvvm.databinding.ActivityMainBinding
 
 class MainActivity(override val viewModel: MainViewModel) : BaseKotlinActivity<ActivityMainBinding, MainViewModel>() {
