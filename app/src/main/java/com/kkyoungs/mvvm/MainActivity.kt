@@ -9,7 +9,7 @@ class MainActivity() : BaseKotlinActivity<ActivityMainBinding, MainViewModel>() 
      */
     override val laResourceId: Int
         get() = R.layout.activity_main
-    
+
     override val viewModel: MainViewModel by viewModel()
     override fun initAfterBinidng() {
         TODO("Not yet implemented")

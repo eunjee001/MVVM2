@@ -9,6 +9,7 @@ import org.koin.dsl.module
 class MyApplication : Application() {
     override fun onCreate() {
         super.onCreate()
+        // 의존성 주입
         startKoin{
             androidContext(this@MyApplication)
             modules(module{
