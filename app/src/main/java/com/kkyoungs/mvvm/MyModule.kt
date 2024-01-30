@@ -21,7 +21,7 @@ var retrofit = module {
 }
 var modelPart = module {
     factory<DataModel>{
-        DataModelImpl()
+        DataModelImpl(get())
     }
 }
 
